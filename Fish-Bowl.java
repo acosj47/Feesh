@@ -1,7 +1,7 @@
 // class of feesh!!!!!!!!!!
 // by Justin
 
-// objects
+// object and string arrays
 Fish [] school;
 String [] fishNames = {"Feesh", "Cheep", "Mike", "Jill"};
 
@@ -10,7 +10,7 @@ void setup() {
   size(800, 600);
   reset();
 }
-// reset, object instances
+// reset, object instances, fill array
 void reset() {
   school = new Fish[4];
   school[0] = new Fish(50, 50, color(255, 50, 0), fishNames[0]);
