@@ -2,7 +2,6 @@
 // by Justin
 
 // objects
-Fish feesh, cheep, mike, jill;  // fish objects
 Fish [] school;
 String [] fishNames = {"Feesh", "Cheep", "Mike", "Jill"};
 
